@@ -20,6 +20,7 @@ Projekt pro vyhledávání podobných motýlích obrázků pomocí modelu CLIP a
  
 Součástí projektu je také vyhledávání podobných obrázků podle textového dotazu pomocí modelu CLIP.
 
+
 ### ✅ Funkce:
 - Uživatel zadá libovolný textový dotaz (např. „modrý motýl se žlutými okraji“)
 - CLIP převede dotaz do embeddingu
@@ -27,10 +28,8 @@ Součástí projektu je také vyhledávání podobných obrázků podle textové
 - Výsledky se zobrazí jako galerie
 
 ### 📓 Notebook:
-Najdeš v:
-```
-notebooky/clip_text_search_interactive.ipynb
-```
+Najdeš v: notebooky/clip_text_search_interactive.ipynb
+Notebook používá uložené embeddingy obrázků, umožňuje zadat dotaz přes interaktivní políčko (text_widget), správně načítá aktuální hodnotu i při stisknutí Enter nebo kliknutí na tlačítko
 
 ### 🔍 Ukázka použití:
 ```python
