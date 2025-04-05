@@ -1,0 +1,1 @@
+# Gradio aplikace zde – viz notebook nebo Hugging Face
